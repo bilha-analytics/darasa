@@ -1,4 +1,6 @@
 # Learning Analytics with Py
 
-Transitioning from R to Pythong
+Transitioning from R to Python
+
+
 
