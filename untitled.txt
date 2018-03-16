@@ -1,0 +1,4 @@
+<html>
+<head><title>Getting Started</title></head>
+<body><h1>From R to Py</h1><p>Getting into Py for DS and anlytics. Combining R and Py. Replacing Java with Py??? </p> </body>
+</html>
