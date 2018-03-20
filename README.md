@@ -15,8 +15,7 @@ def learn(old_assumptions):
 		refresh( old_assumptions.theory )
 		store( lesson(old_assumptions) )
 	catch e: 
-		fail_fast.kudos()
-		learn( e )
+		fail_fast.kudos() 
 	return( learn( old_assumptions.next ) )
 ```
 	
