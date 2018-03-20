@@ -13,7 +13,7 @@ def learn(old_assumptions):
 	try: 
 		reuse( old_assumptions.best_practices )
 		refresh( old_assumptions.theory )
-		learn( old_assumptions.next ) 
+		store( lesson(old_assumptions) )
 	catch e: 
 		fail_fast.kudos()
 		learn( e )
