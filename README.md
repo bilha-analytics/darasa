@@ -16,6 +16,7 @@ def learn(old_assumptions):
 		use( store( lesson(old_assumptions) ) )
 	catch e: 
 		fail_fast.kudos() 
+		use( store( lesson(e) ) )
 	return( learn( old_assumptions.next ) )
 ```
 	
